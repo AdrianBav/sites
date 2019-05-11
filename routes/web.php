@@ -1,5 +1,7 @@
 <?php
 
+use AdrianBav\Traffic\Middlewares\RecordVisits;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,4 +13,4 @@
 |
 */
 
-Route::get('/', 'HomeController');
+Route::get('/', 'HomeController')->middleware(RecordVisits::class);
