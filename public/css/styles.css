@@ -1,0 +1,100 @@
+body {
+    background: #efefef url(../img/halftone.png);
+}
+#title {
+    margin-top: 0.5em;
+}
+.panel.callout {
+    margin-bottom: 0;
+}
+.sites a {
+    display: inline-block;
+    margin-bottom: 1.25rem;
+    -webkit-transition: box-shadow 200ms,border 200ms
+}
+.sites a:hover {
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1),0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.sites img {
+    border-top: 1px solid #d8d8d8;
+    border-left: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+}
+.sites .panel p {
+    color: #555555;
+    font-size: 14px;
+    line-height: 16px;
+    overflow-y: -webkit-paged-y;
+}
+/* Site Favicons */
+.icon {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    padding-left: 22px;
+}
+.icon-bavanco {
+    background-image: url(../img/icons/bavanco.png);
+}
+.icon-hp {
+    background-image: url(../img/icons/hp.png);
+}
+.icon-bwd {
+    background-image: url(../img/icons/bwd.png);
+}
+.icon-c2c {
+    background-image: url(../img/icons/c2c.png);
+}
+.icon-ab {
+    background-image: url(../img/icons/ab.png);
+}
+.icon-sitepoint {
+    background-image: url(../img/icons/sitepoint.png);
+}
+.icon-laracasts {
+    background-image: url(../img/icons/laracasts.png);
+}
+.icon-github {
+    background-image: url(../img/icons/github.png);
+}
+.icon-gist {
+    background-image: url(../img/icons/gist.png);
+}
+.icon-racklunch {
+    background-image: url(../img/icons/racklunch.png);
+}
+.icon-portfolio {
+    background-image: url(../img/icons/portfolio.png);
+}
+.icon-nttea {
+    background-image: url(../img/icons/nttea.png);
+}
+.icon-archives {
+    background-image: url(../img/icons/archives.png);
+}
+.icon-codewiki {
+    background-image: url(../img/icons/codewiki.png);
+}
+.icon-sandbox {
+    background-image: url(../img/icons/sandbox.png);
+}
+.icon-richard {
+    background-image: url(../img/icons/richard.png);
+}
+.icon-matt {
+    background-image: url(../img/icons/matt.png);
+}
+.icon-karts {
+    background-image: url(../img/icons/karts.png);
+}
+.icon-ni {
+    background-image: url(../img/icons/ni.png);
+}
+/* Small screen only */
+@media only screen and (max-width: 40em) {
+    .sites li {
+        max-width: 310px;
+    }
+}
