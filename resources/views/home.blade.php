@@ -4,6 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#b92768">
+
     <title>Adrian Bavister's Sites</title>
     <meta name="description" content="This page serves as a handy reference to the Bavanco online portfolio. The objective is to list all public domains and sub-domains.">
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
