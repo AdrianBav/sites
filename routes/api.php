@@ -1,7 +1,5 @@
 <?php
 
-use Illuminate\Http\Request;
-
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -13,6 +11,12 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+Route::middleware('auth:api')->get('/meta', function () {
+    return [
+        'item1' => '%d domains',
+        'number1' => 4,
+        'item2' => '%d microsites',
+        'number2' => 8,
+        'info' => 'CUSTOM designs',
+    ];
 });
