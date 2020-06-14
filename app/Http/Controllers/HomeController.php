@@ -11,8 +11,6 @@ class HomeController extends Controller
         $domains = array(
             array('name' => 'Bavanco', 'short_name' => 'bavanco', 'url' => 'https://www.bavanco.co.uk'),
             array('name' => 'Adrian Bavister', 'short_name' => 'ab', 'url' => 'https://adrianbavister.com'),
-            array('name' => 'Helena Pluskowska', 'short_name' => 'hp', 'url' => 'http://helenapluskowska.co.uk'),
-            array('name' => 'Coast to Coast Communications', 'short_name' => 'c2c', 'url' => 'http://coasttocoastfiberoptics.com'),
         );
 
         $micro_sites = array(
